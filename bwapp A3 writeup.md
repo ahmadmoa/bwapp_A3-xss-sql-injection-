@@ -83,5 +83,5 @@ The single quote at the beginning is used to close the original SQL query string
 nothing change 
 
 "sleep(0.5)" is a database function that causes the database to pause for 0.5 seconds and this is a time delay to check if the query executed 
-# symbol is used to comment out the rest of the original SQL query 
+# '#'symbol is used to comment out the rest of the original SQL query 
 trying ' or 1=1 AND sleep(0.5)#  and the web page paused for 0.5 seconds so there is a sql injection can happens 
